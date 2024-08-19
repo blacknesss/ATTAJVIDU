@@ -1,0 +1,9 @@
+.footer{
+    margin-top: 5em;
+    text-align: center;
+}
+.foot-p{
+    text-wrap: nowrap;
+    color: #797373;
+    user-select: none;
+}
