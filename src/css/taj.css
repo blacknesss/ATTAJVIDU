@@ -1,3 +1,19 @@
+.bg-taj{
+    margin-top: 15px;
+}
+
+.search{
+    padding: 15px 0;
+    text-align: center;
+}
+.search__input{
+    background-color: #202020;
+    padding: 12px;
+    border: 1px solid #575757;
+    border-radius: 15px;
+    color: #fff;
+}
+
 .taj-main{
     position: relative;
     margin-top: 4em;
@@ -29,6 +45,7 @@
     flex-direction: column;
     word-wrap: break-word;
     text-align: center;
+    border-radius: 15px;
 }
 .roolName{
     text-align: center;

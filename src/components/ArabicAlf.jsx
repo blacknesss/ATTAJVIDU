@@ -48,21 +48,13 @@ function ArabicAlf() {
 
   return (
     <div className='arb-wrapper'>
-      <div className='bg-arabic'>
-        <div className='container'>
-          <div className='arabic'>
-            <h1>Арабский алфавит</h1>
-          </div>
-        </div>
-      </div>
-
       <div className='container'>
         <div className='arabic-main'>
           <div className="arabic-attention">
             <h2 className={isTouch ? 'active' : ''}>Нажмите на букву, чтобы воспроизвести её</h2>
             <img onClick={() => setIsTouch(!isTouch)} className='attention-img' src={attention} alt="#" />
           </div>
-          <table class='table'>
+          <table className='table'>
             <tbody>
               <tr>
                 <td >

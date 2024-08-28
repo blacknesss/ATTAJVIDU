@@ -6,7 +6,7 @@
 
 
 body{
-    background-color: rgba(14, 14, 14);
+    background-color: #8C8C88;
     font-family: "Nunito", sans-serif;
 }
 
@@ -41,25 +41,19 @@ body{
     overflow: hidden;
 }
 .item{
+    border-radius: 15px;
     padding: 10px;
-    border: 1px solid #000000;
     background-color: #fff;
     text-align: center;
     align-content: center;
     transition: all .2s ease-in;
     user-select: none;
+    background: #202020;
 }
-.item:first-child{
-    background: #000000a9;
-}
-.item:nth-child(2){
-    background: #000000a9;
-}
+
 .item:last-child{
     grid-column-start: 1;
     grid-column-end: 3;
-
-    background: #000000a9;
 }
 .item:hover{
     border: 1px solid #ffffff;
@@ -73,28 +67,17 @@ body{
 .arb-wrapper{
     overflow: hidden;
 }
-.bg-arabic{
-    background-color: #141414;
-}
-.arabic{
-    text-align: center;
-    
-}
-.arabic h1{
-    color: #ffffff;
-}
 .arabic-main{
-    display: flex;
-    flex-direction: column;
+    margin-top: 6em;
 }
 .arabic-attention{
-    transform: translateY(350%);
+    margin-bottom: 15px;
     display: flex;
     justify-content: right;
     overflow: hidden;
+    color: #262626;
 }
 .arabic-attention h2{
-    color:#ffffff36;
     font-size: 18px;
     transform: translateX(150%);
     opacity: 0;
@@ -112,16 +95,14 @@ body{
 }
 table.table{
 	width: 100%;
-    margin-top: 100px;
-	border-collapse:collapse;
+	/* border-collapse:collapse; */
 	border-spacing:0;
-    border: 1px solid #595959;
 }
 table.table td {
 	padding: 3px;
 	height: 45px;
     text-align: center;
-
+    border-radius: 15px;
     background: #202020; 
 	color: #fff;
     font-size: 50px;
