@@ -1,0 +1,18 @@
+/* notFound */
+.notFoundP{
+    padding-top: 50px;
+    text-align: center;
+    color:#ffffff;
+    font-size: 30px;
+}
+.backto{
+    display: block;
+    text-align: center;
+    color:#64741f;
+    font-size: 30px;
+    text-decoration: none;
+}
+.backto:hover{
+    text-decoration: underline;
+}
+/* ============ */

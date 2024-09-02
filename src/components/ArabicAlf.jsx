@@ -28,7 +28,7 @@ import Nun from '../sounds/Nun.mp3';
 import Vav from '../sounds/Vav.mp3';
 import Hha from '../sounds/Hha.mp3';
 import Ya from '../sounds/Ya.mp3';
-
+import '../css/arabicalf.css';
 
 function ArabicAlf() {
   const [isTouch, setIsTouch] = useState(true)

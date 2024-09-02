@@ -10,6 +10,7 @@ import { NotFound } from './components/NotFound';
 import ArabicAlf from './components/ArabicAlf';
 import TajvidRools from './components/TajvidRools';
 import Suras from './components/Suras';
+import './css/media.css';
 
 function App() {
   return (

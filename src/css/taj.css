@@ -1,3 +1,8 @@
+@font-face {
+    font-family: p1;
+    src: url(../fonts/p1.woff2);
+}
+
 .bg-taj{
     margin-top: 15px;
 }
@@ -5,15 +10,39 @@
 .search{
     padding: 15px 0;
     text-align: center;
+    position: relative;
+    width: min-content;
+    display: block;
+    margin: auto;
 }
 .search__input{
+    width: 300px;
     background-color: #202020;
-    padding: 12px;
-    border: 1px solid #575757;
-    border-radius: 15px;
+    padding: 12px 40px;
+    border: 1px solid #5757570c;
+    border-radius: 10px;
     color: #fff;
 }
-
+.search__icon{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    opacity: .5;
+    top: 25px;
+    left: 12px;
+}
+.search__close{
+    position: absolute;
+    top: 25px;
+    width: 23px;
+    height: 23px;
+    right: 15px;
+    opacity: .5;
+}
+.search__close:hover{
+    opacity: .8;
+    cursor: pointer;
+}
 .taj-main{
     position: relative;
     margin-top: 4em;
@@ -49,7 +78,7 @@
 }
 .roolName{
     text-align: center;
-    font-size: 27px;
+    font-size: 24px;
     color: white;
     padding: 15px 0;
 }
@@ -59,19 +88,21 @@
     background-color: #555555;
 }
 .rool{
-    font-size: 25px;
+    font-size: 24px;
     color: #fff;
     padding: 10px 35px 35px 35px;
 
 }
 .example{
-    font-size: 35px;
+    font-family: p1;
+    font-size: 40px;
     color: #fff;
     padding: 35px;
     display: flex;
     justify-content: space-around;
 }
 .fsb{
+    font-family: p1;
     font-size: 40px;
     color: #fff;
     text-align: center;

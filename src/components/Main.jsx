@@ -4,7 +4,7 @@ function Main() {
   const categories = ['Арабский алфавит', 'Правила таджвида', 'Короткие суры Священного Корана'];
 
 
-  function tech(item) {
+  function toLink(item) {
     switch (item) {
       case 'Арабский алфавит':
         return '/arabicAlf';
@@ -24,9 +24,10 @@ function Main() {
           <div className='grid'>
             {categories.map((item, index) => (
                 <div className='item' key={index}>
-                  <Link className="main-link" to={tech(item)}>
+                  <span className="main-link">
                     {item}
-                  </Link>
+                    <Link className="item__inner" to={toLink(item)}></Link>
+                  </span>
                 </div>
             ))}
           </div>

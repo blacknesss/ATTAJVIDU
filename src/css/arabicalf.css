@@ -1,0 +1,58 @@
+/* arabicAlf */
+.arb-wrapper{
+    overflow: hidden;
+}
+.arabic-main{
+    margin: 7em 0;
+}
+.arabic-attention{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: right;
+    overflow: hidden;
+    color: #262626;
+}
+.arabic-attention h2{
+    font-size: 18px;
+    transform: translateX(150%);
+    opacity: 0;
+    transition: all .5s ease;
+    user-select: none;
+}
+.arabic-attention h2.active{
+    transform: translateX(-5%);
+    opacity: 1;
+    transition: all .5s ease;
+}
+.attention-img:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+table.table{
+	width: 100%;
+	/* border-collapse:collapse; */
+	border-spacing:0;
+}
+table.table td {
+	padding: 3px;
+    text-align: center;
+    border-radius: 15px;
+    background: #202020; 
+	color: #fff;
+    border: 1px solid #000000;
+}
+.smallElp{
+    font-size: 15px;
+}
+.isTouchP{
+    font-family: p1;
+    font-size: 50px;
+}
+.isTouchP:hover{
+    opacity: 0.4;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+/* ============ */
