@@ -1,17 +1,22 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import techlogo from '../img/techlogo.png';
 
 function Nav() {
 
-    const [isTheme, setIsTheme] = useState(false);
-    const switchTheme = () =>{
-        if (!isTheme){
-            return document.body.style.backgroundColor = `#0E0E0E`
-        }else{
-            return document.body.style.backgroundColor = `#8C8C88`
-        }
-    };
+    const [isTheme, setIsTheme] = useState( JSON.parse(localStorage.getItem('theme')) ?? true);
+    
+    useEffect(()=>{
+        document.body.style.backgroundColor = isTheme ? `#0E0E0E` : `#8C8C88`;
+    }, [isTheme]);
+
+    
+
+    const changeTheme = (e) => {
+        const newTheme = e.target.checked;
+        setIsTheme(newTheme);
+        localStorage.setItem('theme', JSON.stringify(newTheme));
+    }
 
     return (
         <div className='bg-nav'>
@@ -26,7 +31,11 @@ function Nav() {
 
                     <div className="nav-toggle">
                         <p className="change-text">Темная тема</p>
-                        <input checked = {isTheme} onClick={switchTheme} onChange={(e) => setIsTheme(e.target.checked)} type="checkbox" id='toggle-btn'/>
+                        <input
+                        checked = {isTheme}
+                        onChange={(e) => changeTheme(e)}
+                        type="checkbox"
+                        id='toggle-btn'/>
                         <label className='label-btn' htmlFor="toggle-btn"></label>
                     </div>
                 </div>
