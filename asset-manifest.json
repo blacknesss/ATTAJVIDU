@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/ATTAJVIDU/static/css/main.a51da7e9.css",
+    "main.js": "/ATTAJVIDU/static/js/main.ffe459b3.js",
+    "static/media/Sa.mp3": "/ATTAJVIDU/static/media/Sa.541fe890086f6b32c914.mp3",
+    "static/media/Ba.mp3": "/ATTAJVIDU/static/media/Ba.460b8e2e4564696de4f3.mp3",
+    "static/media/Goyn.mp3": "/ATTAJVIDU/static/media/Goyn.ffb86478148d537e2fdd.mp3",
+    "static/media/Ta.mp3": "/ATTAJVIDU/static/media/Ta.53a41798bca140f47ce4.mp3",
+    "static/media/Dal.mp3": "/ATTAJVIDU/static/media/Dal.3639464845cfae819e58.mp3",
+    "static/media/Ha.mp3": "/ATTAJVIDU/static/media/Ha.b21a10a296541a43b2e7.mp3",
+    "static/media/Zo.mp3": "/ATTAJVIDU/static/media/Zo.70fe83f4b40a49109714.mp3",
+    "static/media/Shin.mp3": "/ATTAJVIDU/static/media/Shin.dd4261ba371f667f58e7.mp3",
+    "static/media/Ho.mp3": "/ATTAJVIDU/static/media/Ho.c4fa57b395ab92104e45.mp3",
+    "static/media/Jim.mp3": "/ATTAJVIDU/static/media/Jim.b1a03cce3a8abd45f6e1.mp3",
+    "static/media/Ayn.mp3": "/ATTAJVIDU/static/media/Ayn.cda904fab456ba09a22e.mp3",
+    "static/media/Dod.mp3": "/ATTAJVIDU/static/media/Dod.483d503d3675c8a0f470.mp3",
+    "static/media/Sin.mp3": "/ATTAJVIDU/static/media/Sin.ae8721e269e82980f7c3.mp3",
+    "static/media/Zal.mp3": "/ATTAJVIDU/static/media/Zal.2fed76140dc25b40c44d.mp3",
+    "static/media/Kof.mp3": "/ATTAJVIDU/static/media/Kof.95bafd001e8377f40609.mp3",
+    "static/media/Fa.mp3": "/ATTAJVIDU/static/media/Fa.e62cf00f1fdc925f5238.mp3",
+    "static/media/Za.mp3": "/ATTAJVIDU/static/media/Za.c9a06a8b455b0d1d243f.mp3",
+    "static/media/Hha.mp3": "/ATTAJVIDU/static/media/Hha.d08a2323abe0e1d4ac9b.mp3",
+    "static/media/Lam.mp3": "/ATTAJVIDU/static/media/Lam.f08a632a07b43d655669.mp3",
+    "static/media/Nun.mp3": "/ATTAJVIDU/static/media/Nun.bec6eafd4386809c1c71.mp3",
+    "static/media/Sod.mp3": "/ATTAJVIDU/static/media/Sod.21368e1e35f92b02f798.mp3",
+    "static/media/Alif.mp3": "/ATTAJVIDU/static/media/Alif.a96deb2b7cbf459fbcc8.mp3",
+    "static/media/Vav.mp3": "/ATTAJVIDU/static/media/Vav.ff772d4a0f93d4c47257.mp3",
+    "static/media/Ya.mp3": "/ATTAJVIDU/static/media/Ya.a9361c354b262d36c687.mp3",
+    "static/media/Kaf.mp3": "/ATTAJVIDU/static/media/Kaf.e7ae6d64208a013e84f9.mp3",
+    "static/media/Ro.mp3": "/ATTAJVIDU/static/media/Ro.5dcdf791625787b91ed1.mp3",
+    "static/media/To.mp3": "/ATTAJVIDU/static/media/To.9b8c3a2a68cacd4fbc56.mp3",
+    "static/media/Mim.mp3": "/ATTAJVIDU/static/media/Mim.5f309d9b17a78c672ba5.mp3",
+    "static/media/p1.woff2": "/ATTAJVIDU/static/media/p1.7dade33a15d53afed7c9.woff2",
+    "index.html": "/ATTAJVIDU/index.html",
+    "static/media/attention.svg": "/ATTAJVIDU/static/media/attention.59d1cabc452de3ee6ee465923acf3f1c.svg",
+    "main.a51da7e9.css.map": "/ATTAJVIDU/static/css/main.a51da7e9.css.map",
+    "main.ffe459b3.js.map": "/ATTAJVIDU/static/js/main.ffe459b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a51da7e9.css",
+    "static/js/main.ffe459b3.js"
+  ]
+}
