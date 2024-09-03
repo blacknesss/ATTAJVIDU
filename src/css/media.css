@@ -64,6 +64,9 @@
     .rool{
         font-size: 20px;
     }
+    .fatiha{
+        font-size: 30px;
+    }
 }
 @media (max-width: 360px) {
     .arabic-attention h2{
